@@ -8,9 +8,8 @@ The project includes data preprocessing, exploratory data analysis, model compar
 
 ## 🚀 Live Demo
 
-Coming soon.
+👉 Try the Customer Churn Prediction App➡️customer-churn-prediction-49uc7tr885exrqumx7hgin.streamlit.app
 
----
 
 ## 🎯 Problem Statement
 
