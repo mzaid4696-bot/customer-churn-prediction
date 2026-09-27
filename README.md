@@ -101,23 +101,23 @@ Logistic Regression
 
 At the default classification threshold of 0.50:
 
-Metric	Score
-Recall	82.0%
-Precision	52.3%
-ROC-AUC	0.86
-🎯 Threshold Optimization
+Metric	        Score
+Recall	        82.0%
+Precision	    52.3%
+ROC-AUC	        0.86
+Threshold Optimization
 
 Instead of using the default probability threshold of 0.50, multiple thresholds were evaluated.
 
 Threshold	Recall	Precision	Caught	Missed
-0.25	95.4%	40.7%	356	17
-0.30	94.1%	42.8%	351	22
-0.35	92.5%	45.0%	345	28
-0.40	87.7%	46.6%	327	46
-0.45	85.5%	49.5%	319	54
-0.50	82.0%	52.3%	306	67
-0.55	78.6%	55.8%	293	80
-0.60	73.7%	57.9%	275	98
+0.25	    95.4%	40.7%	    356	    17
+0.30	    94.1%	42.8%	    351	    22
+0.35	    92.5%	45.0%	    345	    28
+0.40	    87.7%	46.6%	    327	    46
+0.45	    85.5%	49.5%	    319	    54
+0.50	    82.0%	52.3%	    306	    67
+0.55	    78.6%	55.8%	    293	    80
+0.60	    73.7%	57.9%	    275	    98
 
 The final application uses a probability threshold of 0.40.
 
